@@ -1,0 +1,18 @@
+@import url("../twentythirteen/rtl.css");
+
+@media (max-width: 999px) {
+	.sidebar .entry-header,
+	.sidebar .entry-content,
+	.sidebar .entry-summary,
+	.sidebar .entry-meta,
+	.sidebar .comment-list,
+	.sidebar .comment-reply-title,
+	.sidebar .comment-navigation,
+	.sidebar .comment-respond .comment-form,
+	.sidebar .featured-gallery,
+	.sidebar .post-navigation .nav-links,
+	.author.sidebar .author-info,
+	.sidebar .format-image .entry-content {
+		max-width: 910px;
+	}
+}

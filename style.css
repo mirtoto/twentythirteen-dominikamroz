@@ -1,0 +1,308 @@
+/*
+ Theme Name:     dominikamroz.art.pl
+ Theme URI:      http://dominikamroz.art.pl/
+ Description:    Theme for dominikamroz.art.pl.
+ Author:         Mirosław Toton
+ Author URI:     http://dominikamroz.art.pl/
+ Template:       twentythirteen
+ Version:        1.0
+*/
+
+@import url("../twentythirteen/style.css");
+
+/**
+ * dominikamroz.art.pl Main
+ * ----------------------------------------------------------------------------
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Roboto Slab, Georgia, serif;
+}
+
+.wp-caption.alignleft {
+	margin: 3px 0px 3px 0;
+}
+
+.wp-caption.alignright {
+	margin: 3px 0 3px 0px;
+}
+
+img.aligncenter {
+	margin: 3px auto;
+}
+
+img.alignnone {
+	margin: 3px 0;
+}
+
+.wp-caption.alignnone {
+	margin: 3px 0;
+}
+
+.wp-caption-text {
+	margin-bottom: 6px;
+}
+
+.site,
+.navbar {
+	max-width: 1920px;
+}
+
+.entry-header,
+.entry-content,
+.entry-summary,
+.entry-meta ,
+.attachment .entry-meta,
+.attachment .entry-description,
+.paging-navigation .nav-links,
+.author-info,
+.page-content,
+.comments-title,
+.comment-list,
+.comment-reply-title,
+.must-log-in,
+.comment-respond .comment-form,
+.comment-respond iframe,
+.comment-navigation,
+.site-main .mu_register {
+	max-width: 910px;
+}
+
+@media (max-width: 1069px) {
+	.error404 .page-header {
+		max-width: 910px;
+	}
+}
+
+@media (max-width: 999px) {
+	.sidebar .entry-header,
+	.sidebar .entry-content,
+	.sidebar .entry-summary,
+	.sidebar .entry-meta,
+	.sidebar .comment-list,
+	.sidebar .comment-reply-title,
+	.sidebar .comment-navigation,
+	.sidebar .comment-respond .comment-form,
+	.sidebar .featured-gallery,
+	.sidebar .post-navigation .nav-links,
+	.author.sidebar .author-info,
+	.sidebar .site-info,
+	.search.sidebar .page-content,
+	.blog.sidebar .page-content,
+	.attachment .entry-header,
+	.sidebar .comments-title,
+	.site-main .sidebar-container {
+		max-width: 910px;
+	}
+}
+
+@media (max-width: 767px) {
+	.attachment .image-navigation,
+	.attachment .entry-attachment .attachment {
+		max-width: 910px;
+	}
+}
+
+/**
+ * dominikamroz.art.pl
+ * ----------------------------------------------------------------------------
+ */
+
+img.alignleft {
+	margin: 5px 0px;
+}
+
+img.alignright {
+	margin: 5px 0px;
+}
+
+.site-title,
+.site-description {
+	text-align: center;
+}
+
+.site-header {
+	background-color: #f6f5f5;
+}
+
+.site-header .home-link {
+	padding: 0px;
+}
+
+.navbar, .site-footer {
+	background-color: #e9e9e9;
+}
+
+.archive-header {
+	background-color: #dbdbdb;
+}
+
+.site-footer .sidebar-container {
+	background-color: #363636;
+}
+
+.entry-content img.alignleft,
+.entry-content .wp-caption.alignleft {
+	margin-left: 0px;
+}
+
+.entry-content img.alignright,
+.entry-content .wp-caption.alignright {
+	margin-right: 0px;
+}
+
+.entry-thumbnail img {
+	display: none;
+}
+
+.char9, .char10, .char11, .char12 {
+	color: #bc360a;
+}
+
+button,
+input,
+textarea {
+	border: 2px solid #999999;
+}
+
+.liquid-responsive .liquid-slider .panel .panel-wrapper {
+	margin-right: 0px;
+}
+
+.liquid-responsive .liquid-slider .panel .panel-wrapper > div .margin {
+	margin: 0px;
+}
+
+.liquid-slider-wrapper .liquid-nav a {
+	width: 28px;
+	height: 28px;
+	padding: 0px;
+	text-indent: inherit;
+	text-align: center;
+	font-family: Georgia, serif;
+	line-height: 23px;
+	border: 1.5px solid #363636;
+	border-radius: 16px;
+	background-color: #fff;
+}
+
+.liquid-slider-wrapper .liquid-nav a:hover {
+	background-color: #363636;
+	outline: none;
+}
+
+.liquid-slider-wrapper .liquid-nav .current {
+	background-color: #e9e9e9;
+	outline: none;
+}
+
+.tp-carousel-posts .hentry {
+    padding: 10px 0px;
+	text-align: center;
+}
+
+.tp-carousel-posts .hentry img {
+	border: 1px solid #eeeeee;
+}
+
+.tp-carousel-posts .hentry h4 {
+	margin: 15px 0px 5px 0px;
+}
+
+.tp-carousel-posts .hentry p {
+	padding: 0px 10px;
+}
+
+@media (max-width: 643px) {
+	.site-header .home-link {
+		min-height: 190px;
+	}
+}
+
+.dmartpl-2imgs {
+	overflow: auto;
+}
+
+.dmartpl-ximgs {
+	overflow: auto;
+}
+
+.dmartpl-ximgs img {
+	margin-left: 5px;
+}
+
+.main_social {
+	top: 10%;
+}
+
+.facebook_left, .twitter_left, .google_left, .youtube_left {
+	box-sizing: content-box;
+}
+
+#byrev-category-cloud-widget {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+	/*width: calc(100% - 245px - 40px);*/
+}
+
+.addtoany_share_save_container {
+	text-align: center;
+}
+
+#s-share-buttons {
+	margin-top: 25px;
+}
+
+/**
+ * dominikamroz.art.pl Contact Form 7
+ * ----------------------------------------------------------------------------
+ */
+
+.wpcf7-form {
+	background-color: #e9e9e9;
+	overflow: hidden;
+	padding: 24px 24px 0px 24px;
+}
+
+.wpcf7-form input, .wpcf7-form textarea {
+	padding: 10px;
+}
+
+.wpcf7-form textarea {
+	width: 100%;
+	height: 200px;
+}
+
+.wpcf7-text, .wpcf7-checkmail, .wpcf7-captchar {
+	width: 300px;
+}
+
+.wpcf7-captchac {
+	margin: 0px 0px 3px 15px;
+}
+
+span.wpcf7-not-valid-tip {
+	font: italic 14px 'Source Sans Pro',Helvetica,sans-serif;
+	color: #ff0000;
+}
+
+div.wpcf7-validation-errors {
+	border: none;
+	background-color: rgb(247, 231, 0);
+	margin-bottom: 24px;
+	padding: 0.5em 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+img.wpcf7-captchac {
+	vertical-align: top;
+	margin: 10px;
+}

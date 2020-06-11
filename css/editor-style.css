@@ -1,0 +1,5 @@
+@import url("../twentythirteen/css/editor-style.css");
+
+html .mceContentBody {
+	max-width: 910px;
+}

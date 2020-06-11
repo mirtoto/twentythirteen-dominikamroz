@@ -1,0 +1,15 @@
+@import url("../twentythirteen/css/ie.css");
+
+.format-image .entry-content .size-full,
+.ie7 .entry-header,
+.ie7 .entry-content,
+.ie7 .entry-summary,
+.ie7 .entry-meta,
+.ie7 .sidebar .post-navigation .nav-links,
+.ie7 .sidebar .paging-navigation .nav-links,
+.ie7 .comments-title,
+.ie7 .comment-list,
+.ie7 .comment-reply-title,
+.ie7 .comment-respond .comment-form {
+	max-width: 910px;
+}
